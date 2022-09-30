@@ -1,0 +1,19 @@
+.logo {
+    display: inline-flex;
+    position: fixed;
+    flex-direction: column;
+    top: 50vh;
+    left: 7vw;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    will-change: opacity, left;
+}
+
+.logo__text {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+

@@ -1,0 +1,11 @@
+.le {
+    display: inline-flex;
+    position: fixed;
+    top: 7vh;
+    left: 4.8vw;
+    align-items: center;
+    z-index: 100;
+    will-change: opacity, transform;
+    transform: translateX(-15px);
+    opacity: 0;
+}

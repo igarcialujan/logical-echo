@@ -1,0 +1,50 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal__panel {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    padding: 1rem;
+    color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.modal__title {
+    color: inherit;
+}
+
+.modal__message {
+    color: inherit;
+    padding: 12px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal__message--info {
+    color: mediumblue;
+}
+
+.modal__message--warn {
+    color: orange;
+}
+
+.modal__message--success {
+    color: darkolivegreen;
+}
+
+.modal__message--error {
+    color: red;
+}
+
+.modal__button {
+    color: inherit;
+    background-color: transparent !important;
+}

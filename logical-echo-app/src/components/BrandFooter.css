@@ -1,0 +1,16 @@
+.brand-footer {
+    display: inline-flex;
+    position: fixed;
+    bottom: 7vh;
+    left: 4.8vw;
+    align-items: center;
+    z-index: 100;
+    will-change: opacity, transform;
+    transform: translateX(-15px);
+    opacity: 0;
+}
+
+.brand-footer__text {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+}

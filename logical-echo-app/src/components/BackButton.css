@@ -1,0 +1,28 @@
+.back {
+    position: absolute;
+	background: none;
+	margin: auto 0 1.5rem 0;
+    stroke: var(--font-color);
+    z-index: 100;
+    width: 50px;
+}
+
+.back svg {
+	stroke-linecap: round;
+}
+
+.back:hover,
+.back:focus {
+	outline: none;
+	stroke: var(--color-500);
+}
+
+.detail-back {
+    bottom: 7vh;
+    left: 4.8vw;
+}
+
+.contact-back {
+    bottom: 7vh;
+    left: 4.8vw;
+}

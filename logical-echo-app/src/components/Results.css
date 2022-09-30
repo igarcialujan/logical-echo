@@ -1,0 +1,30 @@
+.results-grid {
+	display: grid;
+	margin: 2em;
+  	gap: 20px;
+	padding: 0.5vw;
+  	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.results-grid__cell-image {
+	border-radius: 8px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.results-grid__cell-image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.item-info {
+	font-size: .9rem;
+}
+
+.results-fav-button {
+    border-style: none;
+	position: absolute;
+	bottom: 3%;
+	right: 3%;
+}

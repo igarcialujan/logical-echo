@@ -1,0 +1,32 @@
+{
+  "name": "logical-echo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon .",
+    "inspect": "node --inspect-brk .",
+    "watch-inspect": "nodemon --inspect-brk .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.7.1",
+    "ioredis": "^5.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "logical-echo-data": "file:../logical-echo-data",
+    "logical-echo-errors": "file:../logical-echo-errors",
+    "logical-echo-logic": "file:../logical-echo-logic",
+    "redis": "^4.0.6",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

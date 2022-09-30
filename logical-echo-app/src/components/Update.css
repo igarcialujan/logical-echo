@@ -1,0 +1,8 @@
+.update-form {
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+    transform: translateX(-100%);
+    background-color: transparent;
+    z-index: 100;
+}

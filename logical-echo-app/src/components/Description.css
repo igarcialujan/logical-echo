@@ -1,0 +1,15 @@
+.description {
+    position: absolute;
+}
+
+.description__motto {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    color: var(--heading-color);
+}
+
+.description__text {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    color: var(--font-color);
+}

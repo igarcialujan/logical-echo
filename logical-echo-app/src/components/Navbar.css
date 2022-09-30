@@ -1,0 +1,11 @@
+.navbar {
+    display: inline-flex;
+    position: absolute;
+    top: 7vh;
+    left: 50vw;
+    /* align-items: center; */
+    z-index: 100;
+    will-change: opacity, transform;
+    transform: translateX(-50%);
+    opacity: 1;
+}

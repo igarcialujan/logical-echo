@@ -1,0 +1,35 @@
+.hamburger-line {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 50vh;
+    width: 0;
+    will-change: width;
+    height: 2px;
+    background: var(--heading-color);
+    white-space: nowrap;
+}
+
+.hamburger-line label {
+    display: table;
+    position: relative;
+    transform: translateX(-100%) translateY(-35%);
+    font-size: .785rem;
+}
+
+.hamburger-line label span {
+    display: table;
+    will-change: opacity, transform;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media only screen and (min-width: 789px) {
+    .hamburger-line {
+        left: calc(65vw - 25px);
+    }
+
+    .hamburger-line label {
+        left: -12px;
+    }
+}

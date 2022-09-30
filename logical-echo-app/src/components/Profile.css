@@ -1,0 +1,8 @@
+.profile {
+    position: absolute;
+    top: 20vh;
+    left: 43vw;
+    transform: translateX(-100%);
+    background-color: transparent;
+    z-index: 100;
+}

@@ -1,0 +1,7 @@
+.search-form {
+    position: absolute;
+    top: 20vh;
+    left: 43vw;
+    background-color: transparent;
+    z-index: 100;
+}

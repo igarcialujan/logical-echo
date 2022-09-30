@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ----- RESETS ----- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    text-transform: none;
+    background: transparent;
+    /* font-size: 16px; */
+    outline: none;
+    tab-size: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    cursor: none;
+}
+
+html,
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+/* ----- FONT VARIABLES ----- */
+
+:root {
+    --primary-font: 'Courier Prime', Courier, monospace;
+    --secondary-font: 'Courier New', Courier, monospace;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+/* ----- COLOR VARIABLES ----- */
+
+/* 'amber': { '50': '#fffcf2', '100': '#fff9e6', '200': '#ffefbf', '300': '#ffe599', '400': '#ffd24d', '500': '#ffbf00', '600': '#e6ac00', '700': '#bf8f00', '800': '#997300', '900': '#7d5e00' } */
+
+/* 'burnt-sienna': {  DEFAULT: '#EE6C4D',  '50': '#F8C3B6',  '100': '#F7B9AA',  '200': '#F5A693',  '300': '#F2927C',  '400': '#F07F64',  '500': '#EE6C4D',  '600': '#E83E16',  '700': '#B02F11',  '800': '#78200B',  '900': '#401106'} */
+
+:root {
+    --font-color: #424242;
+    --heading-color: #292922;
+    /* --bg-color: #fffcf2; */
+    --primary-color: #ffbf00;
+    --secondary-color: #ffd24d;
+    --color-600: #e6ac00;
+    --color-500: #ffbf00;
+    --color-400: #ffd24d;
+    --color-300: #ffe599;
+    --color-200: #ffefbf;
+    --color-100: #fff9e6;
+    --color-50: #fffcf2;
+    /* --burnt-sienna-600: #E83E16;
+    --burnt-sienna-500: #EE6C4D;
+    --burnt-sienna-400: #F07F64;
+    --burnt-sienna-300: #F2927C;
+    --burnt-sienna-200: #F5A693;
+    --burnt-sienna-100: #F7B9AA;
+    --burnt-sienna-50: #F8C3B6; */
+}
+
+.color--hover {
+    color: var(--color-500);
+}
+
+/* ----- GLOBAL CLASSES ----- */
+
+.centered-axis-xy {
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+/* ----- COMPONENTS ----- */
+
+/* html {
+    cursor: none;
+} */
+
+body {
+    color: var(--font-color);
+    font-family: var(--primary-font);
+    background-color: white;
+}
+
+a {
+    color: inherit;
+    font-size: .7rem;
+}
+
+
+/* ----- containers ----- */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--vertical {
+    flex-direction: column;
+}
+
+.container--gapped {
+    padding: 1rem;
+}
+
+
+/* ----- forms ----- */
+
+.form {
+    display: inline-flex;
+}
+
+.field {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: text;
+}
+
+
+/* ----- buttons ----- */
+
+.button {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: none;
+    color: var(--heading-color);
+    font-family: var(--primary-font);
+}
+
+.button:hover {
+    /* border-color: var(--heading-color); */
+    color: var(--primary-color);
+}
+
+.button--medium {
+    min-width: 5.5rem;
+}
+
+.button--emphasized {
+    /* border-color: var(--heading-color); */
+    color: var(--primary-color);
+}
+
+/* .button--emphasized:hover {
+    border-color: var(--heading-color);
+    color: var(--heading-color);
+} */
+
+.button--warning:hover {
+    background-color: var(--burnt-sienna-500);
+    color: var(--heading-color);
+}
+
+
+/* ----- lists ----- */
+
+ul {
+    list-style-type: none;
+}
+
+

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Verify Email Address</title>
+    </head>
+    <style>
+        body {
+            color: #000;
+            font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    </style>
+    <body>
+        <h1>Welcome to Logical Echo!</h1>
+        <p>Hello, <%= name %>.</p>
+        <p>Welcome to Logical Echo!</p>
+        <p>In order to confirm your registration please follow this link, or copy and paste the URL into your browser:</p>
+        <p><a href='<%= verify_email-url %>'></a></p>
+        <p>If you received this email by mistake, just delete it.</p>
+        <p><em>The Logical Echo Team</em></p>
+    </body>
+</html>

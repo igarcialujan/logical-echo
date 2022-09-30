@@ -1,0 +1,1 @@
+// function to retrieve the new items found in the last week and prepare them in an email 

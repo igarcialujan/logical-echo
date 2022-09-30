@@ -1,0 +1,18 @@
+.footer {
+    display: inline-flex;
+    position: absolute;
+    bottom: 7vh;
+    left: 50vw;
+    transform: translate(-50%);
+    align-items: center;
+    z-index: 100;
+    /* will-change: opacity, transform; */
+    /* transform: translateX(-15px); */
+    /* opacity: 1; */
+    /* transition: transform .91s cubic-bezier(.77,0,.175,1), opacity .91s cubic-bezier(.77,0,.175,1); */
+}
+
+/* .button-newsletter {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+} */
